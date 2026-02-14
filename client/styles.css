@@ -1,4 +1,15 @@
 body {
     font-family: system-ui, sans-serif;
     padding: 2rem;
+      background-color: #454545;
+}
+
+#interests {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+#projects {
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
