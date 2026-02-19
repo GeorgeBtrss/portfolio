@@ -16,6 +16,13 @@ p {
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
+#placeholder {
+    padding-bottom: 160px;
+    position: absolute;
+    top: 160px;
+    left: 780px;
+}
+
 #projects {
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -31,6 +38,10 @@ p {
     padding: 60px;
 }
 
+.card-display {
+    display: flex;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -38,13 +49,15 @@ p {
     width: 300px; /* Set a fixed width */
     border-radius: 5px; /* Rounded corners */
     background-color: #dadada;
-    margin: 20px 0 20px 0; /* Spacing between multiple cards */
+    margin: 20px; /* Spacing between multiple cards */
     display: flex;
+    padding: 20px;
+    justify-content: center;
 }
 
 /* On mouse-over, add a deeper shadow for interactivity */
 .card:hover {
-    background-color: white;
+    background-color: #fefefe;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
