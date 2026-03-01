@@ -10,41 +10,49 @@
   </head>
   <body>
     <header id="header">
-        <h1 style="font-size:25px">My Portfolio</h1>
+        <h1 style="font-size:25px;text-align:center;">My Portfolio</h1>
     </header>
-    <main style="margin:20px">
-      <div class="intro-text">
-        <div class="text-1">
-            <h1>I'm George Botros</h1>
-            <h4>Computer Science Student</h4>
-        </div>
-      </div>
-      <div class="card" id="placeholder">IMAGE PLACEHOLDER</div>
-      <p>Interested in:</p>
-      <div class="card-display">
-        <div class="card">
-          <div class="container">
-            <h2>Software Development</h2>
+    <main>
+      <section id="hero">
+        <div class="text">
+          <div class="text-1">
+              <h1>I'm George Botros</h1>
+              <h4>Computer Science Student</h4>
           </div>
         </div>
-        <div class="card">
-          <div class="container">
-            <h2>Web Development</h2>
+        <!--Save picture of myself for later-->
+        <div class="card" id="placeholder">IMAGE PLACEHOLDER</div>
+      </section>
+      <section id="interests">
+        <p class="text" style="font-size:20px">Interested in:</p>
+        <div class="card-display">
+          <div class="card">
+            <div class="container">
+              <h2>Software Development</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <h2>Web Development</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <h2>Low-level System Design</h2>
+            </div>
           </div>
         </div>
+      </section>
+      <section id="projects">
+        <p class="text" style="color:black">Current Projects:</p>
         <div class="card">
           <div class="container">
-            <h2>Low-level System Design</h2>
+            <a href="https://github.com/GeorgeBtrss/Simulace-Game"><h2>Python Terminal-Based Game</h2></a>
+            <p>Nov 2025-Present</p>
           </div>
         </div>
-      </div>
-      <p>Current Projects:</p>
-      <div class="card">
-        <div class="container">
-          <a href="https://github.com/GeorgeBtrss/Simulace-Game"><h2>Python Terminal-Based Game</h2></a>
-        </div>
-      </div>
-      <a href="https://github.com/GeorgeBtrss" style="color:rgb(0, 0, 0)">Check out my GitHub</a>
+      </section>
+      <a href="https://github.com/GeorgeBtrss" style="color:rgb(0, 0, 0);margin:20px">Check out my GitHub</a>
     </main>
     <script src="main.js"></script>
   </body>
