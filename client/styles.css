@@ -14,19 +14,18 @@ p {
     color: white;
     position: fixed;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 60px;
     z-index: 10;
     backdrop-filter: blur(24px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .info {
-    width: 50%;
-    height: 100%;
+    width: 45%;
     justify-self: right;
 }
 
@@ -46,14 +45,15 @@ p {
 
 .projects {
     border-radius: 5px;
-    margin: 20px
+    margin: 20px;
+    padding-bottom: 50px
 }
 
 .text {
     width: 100%;
     font-weight: bold;
     color: white;
-    text-align: center;
+    text-align: center; 
 }
 
 .text-1 {
@@ -116,4 +116,16 @@ p {
 
 .container:hover a {
     text-decoration: underline;
+}
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px 0 200px 0;
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+
+.social-link {
+    width: 50px;
+    padding: 10px;
 }
