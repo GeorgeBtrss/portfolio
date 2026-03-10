@@ -14,7 +14,7 @@ p {
     color: white;
     position: fixed;
     text-align: center;
-    padding-top: 30px;
+    padding: 0 50px 0 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,11 +22,30 @@ p {
     z-index: 10;
     backdrop-filter: blur(24px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding-left:20px
+}
+
+.header a:hover {
+    text-decoration: underline;
 }
 
 .info {
-    width: 45%;
+    width: 32%;
     justify-self: right;
+    display: flex
+}
+
+.info p {
+    padding-right: 40px;
 }
 
 .hero {
@@ -38,15 +57,14 @@ p {
     align-items: center;
 }
 
-.interests {
-    background-color: rgb(15, 15, 15);
-    padding: 100px 50px 100px 50px;
+.about {
+    color: white;
+    padding: 50px;
+    width: 40%
 }
 
-.projects {
-    border-radius: 5px;
-    margin: 20px;
-    padding-bottom: 50px
+.section {
+    padding: 50px;
 }
 
 .text {
@@ -63,6 +81,7 @@ p {
 
 .card-display {
     display: flex;
+    justify-content: center;
 }
 
 .text,
@@ -102,11 +121,13 @@ p {
 
 .container h2 {
     font-size: 22px;
+    text-align: center;
 }
 
 .container p {
     font-size: 16px;
     color: #555;
+    text-align: center;
 }
 
 .container a {

@@ -12,7 +12,11 @@
     <div class="header">
         <h1 style="font-size:25px;text-align:center;display:inline">MY PORTFOLIO</h1>
         <div class="info">
-          <p style="padding-left:200px">ABOUT</p>
+          <nav>
+            <a href="#about">ABOUT ME</a>
+            <a href="#interests">INTERESTS</a>
+            <a href="#projects">PROJECTS</a>
+          </nav>
         </div>
     </div>
     <main>
@@ -27,7 +31,17 @@
           </div>
         </div>
       </div>
-      <div class="interests">
+      <div id="about" class="about">
+        <p class="text" style="color:rgb(255, 255, 255);font-size:20px">ABOUT ME</p>
+        <p>
+          I AM A COMPUTER SCIENCE STUDENT WHO ENJOYS FULL-STACK WEB
+          DEVELOPMENT AND LOVES BUILDING PROJECTS WHILE EXPLORING
+          HOW DESIGN AND CODE WORK TOGETHER. ONE OF MY FAVOURITE
+          THINGS WHILE MAKING WEBSITES IS WATCHING WEBPAGES AS THEY
+          COME TO LIFE
+        </p>
+      </div>
+      <div id="interests" class="section">
         <p class="text" style="font-size:20px">INTERESTED IN:</p>
         <div class="card-display">
           <div class="card">
@@ -47,12 +61,20 @@
           </div>
         </div>
       </div>
-      <div class="projects">
-        <p class="text" style="color:rgb(255, 255, 255);font-size:20px">CURRENT PROJECTS:</p>
-        <div class="card">
-          <div class="container">
-            <a href="https://github.com/GeorgeBtrss/Simulace-Game"><h2>PYTHON TERMINAL-BASED GAME</h2></a>
-            <p>NOV 2025-PRESENT</p>
+      <div id="projects" class="section">
+        <p class="text" style="font-size:20px">CURRENT PROJECTS:</p>
+        <div class="card-display">
+          <div class="card">
+            <div class="container">
+              <a href="https://github.com/GeorgeBtrss/Simulace-Game"><h2>PYTHON TERMINAL-BASED GAME</h2></a>
+              <p>NOV 2025-PRESENT</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <a href="https://github.com/Sameer-Abdullah/flight-reservation-system-group40"><h2>AIRLINE FLIGHT RESERVATION SYSTEM</h2></a>
+              <p>SEP-DEC 2025</p>
+            </div>
           </div>
         </div>
       </div>
