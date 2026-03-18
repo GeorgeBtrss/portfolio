@@ -21,6 +21,7 @@ p {
     height: 60px;
     z-index: 10;
     backdrop-filter: blur(24px);
+    background-color: rgb(0, 0, 0, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
     display: flex;
@@ -31,7 +32,7 @@ p {
 .header a {
     color: white;
     text-decoration: none;
-    padding-left:20px
+    margin: 10px
 }
 
 .header a:hover {
@@ -42,10 +43,6 @@ p {
     width: 35%;
     justify-self: right;
     display: flex
-}
-
-.info p {
-    padding-right: 40px;
 }
 
 .hero {
@@ -92,7 +89,7 @@ p {
 }
 
 .card {
-    transition: 0.3s; /* Smooth transition for hover effects */
+    transition: 0.2s; /* Smooth transition for hover effects */
     width: 300px;
     border-radius: 5px;
     background-color: #dadada;
